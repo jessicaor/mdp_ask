@@ -14,9 +14,16 @@
   <body>
 
     <?php 
+    if($_POST['mdp'] == 'kangourou')
+    {
     
+     echo '<h1>Code d\'accés</h1>';
     
+    }else{
+        echo '<p>mot de passe incorrect</p>';
+    }
     ?>
+    
 
   </body>
  </html>
